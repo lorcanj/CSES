@@ -1,5 +1,3 @@
-import sys
-
 number = int(input())
 temp = []
 while number != 1:

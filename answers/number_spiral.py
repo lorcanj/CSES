@@ -4,6 +4,7 @@ cached_twos = {}
 number = int(input())
 numbers = []
 answer = []
+
 for i in range(number):
     thing = input().split()
 

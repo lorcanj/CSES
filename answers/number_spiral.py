@@ -1,15 +1,12 @@
 cached_rows = {}
 cached_cols = {}
 cached_twos = {}
-number = int(input())
-numbers = []
+
+n = int(input())
 answer = []
 
-for i in range(number):
-    thing = input().split()
-
-    row = int(thing[0])
-    col = int(thing[1])
+for _ in range(n):
+    row, col = map(int, input().split())
 
     ans = 0
     if row == col:

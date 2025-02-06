@@ -32,8 +32,6 @@ max_ans = 0
 # print(max_ans)
 
 
-
-
 def bin_search(starts_list, end, curr_max, minus):
     left = 0
     right = len(starts_list)
@@ -51,6 +49,7 @@ def bin_search(starts_list, end, curr_max, minus):
         else:
             left = mid + 1
     return left
+
 
 # for each end, count number of starts before it
 # starts monotonically increasing so can binary search for that point
